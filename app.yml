@@ -13,6 +13,6 @@ spec:
   - sops:
       age:
         privateKeysSecretRef:
-          name: pgp-key
+          name: age-key
   deploy:
   - kapp: {}

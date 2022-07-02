@@ -11,7 +11,7 @@ spec:
       subPath: dontlook
   template:
   - sops:
-      pgp:
+      age:
         privateKeysSecretRef:
           name: pgp-key
   deploy:
